@@ -10,6 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
                             
+    @IBAction func regonclick(sender: AnyObject) {
+        
+        var mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        
+        
+        var registerViewController : UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("secondStoryBoard")
+         as UIViewController
+        
+        registerViewController.modalTransitionStyle = UIModalTransitionStyle.CoverVertical
+        
+        self.presentViewController(registerViewController, animated: true, completion: {println("Present Modal View")})
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2084F19D196B96DB004BCD71 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2084F19C196B96DB004BCD71 /* RegisterViewController.swift */; };
 		20B3951C196B88F700086A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3951B196B88F700086A35 /* AppDelegate.swift */; };
 		20B3951E196B88F700086A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3951D196B88F700086A35 /* ViewController.swift */; };
 		20B39521196B88F700086A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B3951F196B88F700086A35 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2084F19C196B96DB004BCD71 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		20B39516196B88F700086A35 /* ModalViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B3951A196B88F700086A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B3951B196B88F700086A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				20B3951B196B88F700086A35 /* AppDelegate.swift */,
 				20B3951D196B88F700086A35 /* ViewController.swift */,
 				20B3951F196B88F700086A35 /* Main.storyboard */,
+				2084F19C196B96DB004BCD71 /* RegisterViewController.swift */,
 				20B39522196B88F700086A35 /* Images.xcassets */,
 				20B39519196B88F700086A35 /* Supporting Files */,
 			);
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2084F19D196B96DB004BCD71 /* RegisterViewController.swift in Sources */,
 				20B3951E196B88F700086A35 /* ViewController.swift in Sources */,
 				20B3951C196B88F700086A35 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 				20B39534196B88F700086A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20B39535196B88F700086A35 /* Build configuration list for PBXNativeTarget "ModalViewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				20B39537196B88F700086A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
