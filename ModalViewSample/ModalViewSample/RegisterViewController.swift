@@ -13,8 +13,8 @@ class RegisterViewController:UIViewController {
     @IBOutlet strong var txtUsername: UITextField
     
     @IBAction func done(sender: AnyObject) {
-        self.dismissModalViewControllerAnimated(true)
-        println("Modal View Done")
+        self.dismissViewControllerAnimated(true, completion: {println("Modal View Done")})
+        
     }
     
     init(coder aDecoder: NSCoder!) {
